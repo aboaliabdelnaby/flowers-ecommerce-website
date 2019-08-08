@@ -1,0 +1,36 @@
+
+.mr{
+	margin-bottom: 20px;
+}
+ .navbar-light {
+ 	background-color: black !important;
+ 	
+ }
+  .navbar-light a{
+  	color: white !important;
+  }
+  .navbar-light .dropdown-item{
+  	  color: black !important;
+  }
+  .navbar-toggler-icon{
+  	background-color: white !important;
+
+  }
+  .addmr{
+  	margin:auto;
+  	margin-left: 20px;
+  }
+  .addmr:hover{
+  	text-decoration: none;
+  }
+  .minshow{
+  	display: none;
+  }
+ @media only screen and (max-width: 990px) {
+ 	.addmr{
+ 		display: none;
+ 	}
+ 	.minshow{
+ 		display: block;
+ 	}
+ }
